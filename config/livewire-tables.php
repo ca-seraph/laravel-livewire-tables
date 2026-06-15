@@ -36,9 +36,9 @@ return [
     'use_json_translations' => false,
 
     /**
-     * Customise Script & Styles Paths
+     * Customize Script & Styles Paths
      */
-    'script_base_path' => '/rappasoft/laravel-livewire-tables',
+    'script_base_path' => env('SCRIPT_BASE_PATH', '/rappasoft/laravel-livewire-tables'),
 
     /**
      * Filter Default Configuration Options
